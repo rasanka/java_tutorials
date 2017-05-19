@@ -5,6 +5,4 @@ Java Tutorials
 
 * Design patterns
 * Java 8 features
-* REST API development using Jersey
-* Springboot sample application with backend API using Spring MVC
 * Java Threads
