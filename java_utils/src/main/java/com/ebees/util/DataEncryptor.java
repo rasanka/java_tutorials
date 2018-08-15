@@ -9,7 +9,7 @@ import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.PBEKeySpec;
 
 public class DataEncryptor {
-
+	/*
 	private final static char[] hexArray = "0123456789ABCDEF".toCharArray();
 	
 	public static void main(String args[]) {
@@ -79,4 +79,5 @@ public class DataEncryptor {
 		}
 		return new String(hexChars);
 	}
+	*/
 }
