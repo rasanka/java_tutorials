@@ -24,6 +24,13 @@ public class TimeZoneUtil {
      * @param countryCode
      * @return List of Time zone's City and time zone ID
      */
+    
+    public static void printIDs() {
+        for(String str : TimeZone.getAvailableIDs()) {
+            System.out.println(str);
+        }
+    }
+    
     public static List<LocationDto> getTimeZonesByCountryCode(String countryCode) {
         countryCode = isUK(countryCode) ? COUNTRY_CODE_GB : countryCode;
 

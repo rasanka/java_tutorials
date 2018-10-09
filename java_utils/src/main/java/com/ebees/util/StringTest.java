@@ -3,6 +3,17 @@ package com.ebees.util;
 public class StringTest {
 
 	public static void main(String args[]) {
+	    
+	    String test = "";
+	    if(test.isEmpty()) {
+	        System.out.println("EMPTY");
+	    }
+	    
+	    String url = "/tenants/00000000-0000-0005-5555-555555555599/companies/4e0030d9-b729-4476-82a4-60c698781f7e";
+	    System.out.println(url.indexOf("/tenants/"));
+	    
+	    System.out.println("---------------------------");
+	    
 		String data = "";
 		
 		data = "9Stuser@test.com";
